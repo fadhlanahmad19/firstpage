@@ -85,3 +85,12 @@ html {
   .sosmed a:active {
     color: #FBDF07;
   }
+  @media screen and (max-width : 800px) {
+    .container {
+      flex-direction: column;
+      background-color: black;
+    }
+    .gambar, .biodata, .gambar {
+      width: 100%;
+    }
+  }
