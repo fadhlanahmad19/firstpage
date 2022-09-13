@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .banner {
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+  }
+  
+  .banner img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container {
+    margin-bottom: 100px;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: 550px;
+    background-color:aqua;
+    border-radius: 20px;
+    display: flex;
+    padding: 100px 50px; 
+    align-items: center;
+  }
+  .gambar {
+    width: 40%;
+  }
+  .gambar img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .biodata {
+    width: 50%;
+    margin: 0px 40px;
+    color: white;
+  }
+  .biodata h1 {
+    font-size: 50px;
+  }
+  .biodata h2 {
+    font-size: 40px;
+  }
+  .biodata h3 {
+    font-size: 30px;
+  }
+  .biodata p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .sosmed {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sosmed a {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #3D8361;
+    margin: 5px 0px;
+    color: #472D2D;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .sosmed a:hover {
+    background-color: #FFF5E4;
+  }
+  .sosmed a:active {
+    color: #FBDF07;
+  }
